@@ -25,7 +25,6 @@ def p660hn_t1a(mac):
 		new_seed = seed >> 8
 		seed_modifier = new_byte2 << 15
 		seed = new_seed | seed_modifier
-	#print(seed)
 
 	digits = ""
 	for i in pseudo_random:
